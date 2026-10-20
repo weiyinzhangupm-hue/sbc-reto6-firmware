@@ -50,8 +50,3 @@ The public images have empty compiled Wi-Fi SSID, Wi-Fi password, and ThingsBoar
 
 Do not use these images to provision a blank device. Configure and USB-flash the private bootstrap project first. Keep local `sdkconfig`, private bootstrap binaries, and device credentials out of this repository.
 
-## 中文说明
-
-这是课程 OTA 实验使用的公开固件仓库。板子应先通过 USB 烧录并配置 Reto6 1.0.0，再通过 ThingsBoard 发布更新目标。
-
-建议按 1.1.0（按钮触发）、1.2.0（定时触发）、1.3.0（开机触发）的顺序验收。每次只发布一个目标版本，下载地址和 SHA-256 必须属于同一个文件。
